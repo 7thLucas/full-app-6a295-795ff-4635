@@ -16,20 +16,24 @@ export type TDefaultConfigurableData = {
   appName: string;
   logoUrl: string;
   brandColor: TBrandColor;
-  // Mirror new schema fields here. Example:
-  //   maxItemsPerPage?: number;
-  //   enableNotifications?: boolean;
-  //   featuredCategories?: string[];
+  heroHeadline: string;
+  heroSubtext: string;
+  ctaLabel: string;
+  ctaHref: string;
 };
 
 export const defaultConfigurablesData: TDefaultConfigurableData = {
-  appName: "FILL_APP_NAME_HERE",
+  appName: "HelloPage",
   logoUrl: "FILL_LOGO_URL_HERE",
   brandColor: {
-    primary: "FILL_PRIMARY_COLOR_HERE",
-    secondary: "FILL_SECONDARY_COLOR_HERE",
-    accent: "FILL_ACCENT_COLOR_HERE",
+    primary: "#2563eb",
+    secondary: "#f4f4f5",
+    accent: "#2563eb",
   },
+  heroHeadline: "Hello World",
+  heroSubtext: "A clean, simple starting point. Welcome — this is where your story begins.",
+  ctaLabel: "Get Started",
+  ctaHref: "#",
   // ─────────────────────────────────────────────────────────────────────
   // Add new field defaults here. See RULES.md §5 for per-type shape.
   // Required branding fields → use the FILL_X_HERE placeholder pattern.
