@@ -1,0 +1,25 @@
+<style>
+  .mode-portrait .sl-cover { flex-direction: column; text-align: center; }
+  .mode-portrait .sl-cover-visual { width: 100%; height: 38%; }
+  .mode-landscape .sl-cover { flex-direction: row; }
+  .mode-landscape .sl-cover-visual { width: 42%; height: 100%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-cover flex w-full h-full">
+    <div class="flex flex-col justify-between flex-1 p-12">
+      <div>
+        <span class="inline-block px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 text-sm font-medium tracking-wide">Landing Page</span>
+      </div>
+      <div>
+        <h1 class="text-slate-900 font-bold leading-tight" style="font-size:3.4rem;">Hello World.</h1>
+        <p class="mt-5 text-slate-600 text-xl max-w-md leading-relaxed">One clean section. A simple, friendly starting point — built to grow into whatever comes next.</p>
+      </div>
+      <div class="mt-8">
+        <data-attribution />
+      </div>
+    </div>
+    <div class="sl-cover-visual relative overflow-hidden">
+      <img class="absolute inset-0 w-full h-full object-cover" src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=minimal%20serene%20single%20centered%20greeting%20hero%20section%2C%20soft%20indigo%20gradient%2C%20lots%20of%20whitespace%2C%20clean%20modern%20web%20design%2C%20editorial" alt="Minimal hero" />
+    </div>
+  </div>
+</section>
