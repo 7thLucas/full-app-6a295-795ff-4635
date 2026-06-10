@@ -14,7 +14,7 @@ The first visitors who land on the page — any general visitor arriving at the 
 ## Brand & tone
 - **Tone:** clean, simple, friendly.
 - **Visual direction:** minimal, lots of whitespace, centered content, one clear focal headline.
-- Name/logo: not yet set.
+- **Name:** HelloPage. Logo not yet set.
 
 ## Strategic principles
 - Start clean and simple; earn complexity only when there's a reason for it.
