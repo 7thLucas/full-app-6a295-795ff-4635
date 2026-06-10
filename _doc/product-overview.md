@@ -9,7 +9,7 @@ A single-section "Hello World" landing page — the simplest possible web page: 
 - Static, no backend, no data persistence.
 
 ## Audience
-Not yet defined. Today this is a clean foundation rather than a product aimed at a specific user. Positioning will sharpen once the page takes on a real purpose.
+The first visitors who land on the page — any general visitor arriving at the site. Today this is a clean foundation rather than a product aimed at a narrow user; positioning will sharpen once the page takes on a real purpose.
 
 ## Brand & tone
 - **Tone:** clean, simple, friendly.
